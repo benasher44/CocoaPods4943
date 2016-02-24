@@ -1,0 +1,5 @@
+.bundle/
+Pods/
+InheritSearchPathsBroken.xcworkspace/
+vendor/
+*xcuserdata*
