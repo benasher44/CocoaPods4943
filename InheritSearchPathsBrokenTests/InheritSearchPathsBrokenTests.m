@@ -10,7 +10,7 @@
 
 #import <AFNetworking/AFNetworking.h>
 #import <OCMock/OCMock.h>
-#import <OoyalaSDK/OoyalaSDK.h>
+#import <OoyalaSDK/OOOoyalaPlayer.h>
 
 @interface InheritSearchPathsBrokenTests : XCTestCase
 

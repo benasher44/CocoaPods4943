@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0FF86D7DCE37347BB04CB323 /* Pods_SharedDeps_InheritSearchPathsBroken.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 842192A415B8635BFF1D3468 /* Pods_SharedDeps_InheritSearchPathsBroken.framework */; };
-		31969345B71F0AE7BF9039B9 /* Pods_TestsShared_InheritSearchPathsBrokenTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3153C55F2C71617F118101C0 /* Pods_TestsShared_InheritSearchPathsBrokenTests.framework */; };
-		661682D11B36635F232A4768 /* Pods_InheritSearchPathsBrokenTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9173B09807CFF3797D645F0 /* Pods_InheritSearchPathsBrokenTests.framework */; };
+		3BA32183CD721227C8F1D144 /* Pods_SharedDeps_InheritSearchPathsBroken.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E12B61FAF7084FF1FA62F26C /* Pods_SharedDeps_InheritSearchPathsBroken.framework */; };
+		7C822181CCAC3C140772CA62 /* Pods_TestsShared_InheritSearchPathsBrokenTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0039E098C4942B8A4C515DEF /* Pods_TestsShared_InheritSearchPathsBrokenTests.framework */; };
+		9AD0CC85E5849BE3AA083416 /* Pods_SharedDeps_InheritSearchPathsBroken_WatchKit_1_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58343E0660B2D61CF47E6014 /* Pods_SharedDeps_InheritSearchPathsBroken_WatchKit_1_Extension.framework */; };
 		A8B8DE311C7E2DB300DD9527 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B8DE301C7E2DB300DD9527 /* main.m */; };
 		A8B8DE341C7E2DB300DD9527 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B8DE331C7E2DB300DD9527 /* AppDelegate.m */; };
 		A8B8DE371C7E2DB300DD9527 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B8DE361C7E2DB300DD9527 /* ViewController.m */; };
@@ -24,7 +24,6 @@
 		A8B8DE6E1C7E2EFD00DD9527 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8B8DE6C1C7E2EFD00DD9527 /* Interface.storyboard */; };
 		A8B8DE701C7E2EFD00DD9527 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8B8DE6F1C7E2EFD00DD9527 /* Assets.xcassets */; };
 		A8B8DE741C7E2EFD00DD9527 /* InheritSearchPathsBroken WatchKit 1 Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A8B8DE581C7E2EFD00DD9527 /* InheritSearchPathsBroken WatchKit 1 Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		BACAD880359A7701FAD48BDD /* Pods_SharedDeps_InheritSearchPathsBroken_WatchKit_1_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35AB1096C0615E29254574B9 /* Pods_SharedDeps_InheritSearchPathsBroken_WatchKit_1_Extension.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,14 +65,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		14A8648B8B9E1CA07B8028EA /* Pods-TestsShared-InheritSearchPathsBrokenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestsShared-InheritSearchPathsBrokenTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestsShared-InheritSearchPathsBrokenTests/Pods-TestsShared-InheritSearchPathsBrokenTests.debug.xcconfig"; sourceTree = "<group>"; };
-		3153C55F2C71617F118101C0 /* Pods_TestsShared_InheritSearchPathsBrokenTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestsShared_InheritSearchPathsBrokenTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		35AB1096C0615E29254574B9 /* Pods_SharedDeps_InheritSearchPathsBroken_WatchKit_1_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SharedDeps_InheritSearchPathsBroken_WatchKit_1_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		69FA1063A5CBBEDA5FC81FA5 /* Pods-SharedDeps-InheritSearchPathsBroken.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SharedDeps-InheritSearchPathsBroken.release.xcconfig"; path = "Pods/Target Support Files/Pods-SharedDeps-InheritSearchPathsBroken/Pods-SharedDeps-InheritSearchPathsBroken.release.xcconfig"; sourceTree = "<group>"; };
-		83B9BA5F1773AC104C65AF59 /* Pods-InheritSearchPathsBrokenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InheritSearchPathsBrokenTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InheritSearchPathsBrokenTests/Pods-InheritSearchPathsBrokenTests.debug.xcconfig"; sourceTree = "<group>"; };
-		842192A415B8635BFF1D3468 /* Pods_SharedDeps_InheritSearchPathsBroken.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SharedDeps_InheritSearchPathsBroken.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		92C31D57FF28DDD674363514 /* Pods-SharedDeps-InheritSearchPathsBroken.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SharedDeps-InheritSearchPathsBroken.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SharedDeps-InheritSearchPathsBroken/Pods-SharedDeps-InheritSearchPathsBroken.debug.xcconfig"; sourceTree = "<group>"; };
-		9D6EBEF9E53B6B36FD754E17 /* Pods-SharedDeps-InheritSearchPathsBroken WatchKit 1 Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SharedDeps-InheritSearchPathsBroken WatchKit 1 Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SharedDeps-InheritSearchPathsBroken WatchKit 1 Extension/Pods-SharedDeps-InheritSearchPathsBroken WatchKit 1 Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		0039E098C4942B8A4C515DEF /* Pods_TestsShared_InheritSearchPathsBrokenTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestsShared_InheritSearchPathsBrokenTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26B4C8A74B84A3D42B847FAA /* Pods-TestsShared-InheritSearchPathsBrokenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestsShared-InheritSearchPathsBrokenTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestsShared-InheritSearchPathsBrokenTests/Pods-TestsShared-InheritSearchPathsBrokenTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3981AAF5D9D1DB2CED86D3D7 /* Pods-SharedDeps-InheritSearchPathsBroken.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SharedDeps-InheritSearchPathsBroken.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SharedDeps-InheritSearchPathsBroken/Pods-SharedDeps-InheritSearchPathsBroken.debug.xcconfig"; sourceTree = "<group>"; };
+		58343E0660B2D61CF47E6014 /* Pods_SharedDeps_InheritSearchPathsBroken_WatchKit_1_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SharedDeps_InheritSearchPathsBroken_WatchKit_1_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8613D9F39313F30EC16F2496 /* Pods-SharedDeps-InheritSearchPathsBroken WatchKit 1 Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SharedDeps-InheritSearchPathsBroken WatchKit 1 Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-SharedDeps-InheritSearchPathsBroken WatchKit 1 Extension/Pods-SharedDeps-InheritSearchPathsBroken WatchKit 1 Extension.release.xcconfig"; sourceTree = "<group>"; };
 		A8B8DE2C1C7E2DB300DD9527 /* InheritSearchPathsBroken.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InheritSearchPathsBroken.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8B8DE301C7E2DB300DD9527 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A8B8DE321C7E2DB300DD9527 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -99,10 +95,10 @@
 		A8B8DE6D1C7E2EFD00DD9527 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		A8B8DE6F1C7E2EFD00DD9527 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8B8DE711C7E2EFD00DD9527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CAC59D764EEF3DAA18507553 /* Pods-InheritSearchPathsBrokenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InheritSearchPathsBrokenTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-InheritSearchPathsBrokenTests/Pods-InheritSearchPathsBrokenTests.release.xcconfig"; sourceTree = "<group>"; };
-		D2658EA5F3C2CDB6439A140C /* Pods-TestsShared-InheritSearchPathsBrokenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestsShared-InheritSearchPathsBrokenTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestsShared-InheritSearchPathsBrokenTests/Pods-TestsShared-InheritSearchPathsBrokenTests.release.xcconfig"; sourceTree = "<group>"; };
-		D9173B09807CFF3797D645F0 /* Pods_InheritSearchPathsBrokenTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InheritSearchPathsBrokenTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE72D033EF0EE710A9826818 /* Pods-SharedDeps-InheritSearchPathsBroken WatchKit 1 Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SharedDeps-InheritSearchPathsBroken WatchKit 1 Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-SharedDeps-InheritSearchPathsBroken WatchKit 1 Extension/Pods-SharedDeps-InheritSearchPathsBroken WatchKit 1 Extension.release.xcconfig"; sourceTree = "<group>"; };
+		AECD4CD21217F680103F378D /* Pods-SharedDeps-InheritSearchPathsBroken.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SharedDeps-InheritSearchPathsBroken.release.xcconfig"; path = "Pods/Target Support Files/Pods-SharedDeps-InheritSearchPathsBroken/Pods-SharedDeps-InheritSearchPathsBroken.release.xcconfig"; sourceTree = "<group>"; };
+		E12B61FAF7084FF1FA62F26C /* Pods_SharedDeps_InheritSearchPathsBroken.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SharedDeps_InheritSearchPathsBroken.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA781FD7ECB6193896F0E6A1 /* Pods-TestsShared-InheritSearchPathsBrokenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestsShared-InheritSearchPathsBrokenTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestsShared-InheritSearchPathsBrokenTests/Pods-TestsShared-InheritSearchPathsBrokenTests.release.xcconfig"; sourceTree = "<group>"; };
+		FAD59A2DF64A0FDFAA2AF816 /* Pods-SharedDeps-InheritSearchPathsBroken WatchKit 1 Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SharedDeps-InheritSearchPathsBroken WatchKit 1 Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SharedDeps-InheritSearchPathsBroken WatchKit 1 Extension/Pods-SharedDeps-InheritSearchPathsBroken WatchKit 1 Extension.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FF86D7DCE37347BB04CB323 /* Pods_SharedDeps_InheritSearchPathsBroken.framework in Frameworks */,
+				3BA32183CD721227C8F1D144 /* Pods_SharedDeps_InheritSearchPathsBroken.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,8 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				661682D11B36635F232A4768 /* Pods_InheritSearchPathsBrokenTests.framework in Frameworks */,
-				31969345B71F0AE7BF9039B9 /* Pods_TestsShared_InheritSearchPathsBrokenTests.framework in Frameworks */,
+				7C822181CCAC3C140772CA62 /* Pods_TestsShared_InheritSearchPathsBrokenTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,20 +129,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BACAD880359A7701FAD48BDD /* Pods_SharedDeps_InheritSearchPathsBroken_WatchKit_1_Extension.framework in Frameworks */,
+				9AD0CC85E5849BE3AA083416 /* Pods_SharedDeps_InheritSearchPathsBroken_WatchKit_1_Extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5396E72639CAA9D802B95601 /* Frameworks */ = {
+		573E6D8021F76C0B7D6B0A38 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D9173B09807CFF3797D645F0 /* Pods_InheritSearchPathsBrokenTests.framework */,
-				842192A415B8635BFF1D3468 /* Pods_SharedDeps_InheritSearchPathsBroken.framework */,
-				35AB1096C0615E29254574B9 /* Pods_SharedDeps_InheritSearchPathsBroken_WatchKit_1_Extension.framework */,
-				3153C55F2C71617F118101C0 /* Pods_TestsShared_InheritSearchPathsBrokenTests.framework */,
+				3981AAF5D9D1DB2CED86D3D7 /* Pods-SharedDeps-InheritSearchPathsBroken.debug.xcconfig */,
+				AECD4CD21217F680103F378D /* Pods-SharedDeps-InheritSearchPathsBroken.release.xcconfig */,
+				FAD59A2DF64A0FDFAA2AF816 /* Pods-SharedDeps-InheritSearchPathsBroken WatchKit 1 Extension.debug.xcconfig */,
+				8613D9F39313F30EC16F2496 /* Pods-SharedDeps-InheritSearchPathsBroken WatchKit 1 Extension.release.xcconfig */,
+				26B4C8A74B84A3D42B847FAA /* Pods-TestsShared-InheritSearchPathsBrokenTests.debug.xcconfig */,
+				EA781FD7ECB6193896F0E6A1 /* Pods-TestsShared-InheritSearchPathsBrokenTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A50D7C9FCA6436D23B50D278 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E12B61FAF7084FF1FA62F26C /* Pods_SharedDeps_InheritSearchPathsBroken.framework */,
+				58343E0660B2D61CF47E6014 /* Pods_SharedDeps_InheritSearchPathsBroken_WatchKit_1_Extension.framework */,
+				0039E098C4942B8A4C515DEF /* Pods_TestsShared_InheritSearchPathsBrokenTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -160,8 +167,8 @@
 				A8B8DE591C7E2EFD00DD9527 /* InheritSearchPathsBroken WatchKit 1 Extension */,
 				A8B8DE6B1C7E2EFD00DD9527 /* InheritSearchPathsBroken WatchKit 1 App */,
 				A8B8DE2D1C7E2DB300DD9527 /* Products */,
-				AC189B9A2243C35272D2039B /* Pods */,
-				5396E72639CAA9D802B95601 /* Frameworks */,
+				573E6D8021F76C0B7D6B0A38 /* Pods */,
+				A50D7C9FCA6436D23B50D278 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -239,21 +246,6 @@
 				A8B8DE711C7E2EFD00DD9527 /* Info.plist */,
 			);
 			path = "InheritSearchPathsBroken WatchKit 1 App";
-			sourceTree = "<group>";
-		};
-		AC189B9A2243C35272D2039B /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				83B9BA5F1773AC104C65AF59 /* Pods-InheritSearchPathsBrokenTests.debug.xcconfig */,
-				CAC59D764EEF3DAA18507553 /* Pods-InheritSearchPathsBrokenTests.release.xcconfig */,
-				92C31D57FF28DDD674363514 /* Pods-SharedDeps-InheritSearchPathsBroken.debug.xcconfig */,
-				69FA1063A5CBBEDA5FC81FA5 /* Pods-SharedDeps-InheritSearchPathsBroken.release.xcconfig */,
-				9D6EBEF9E53B6B36FD754E17 /* Pods-SharedDeps-InheritSearchPathsBroken WatchKit 1 Extension.debug.xcconfig */,
-				DE72D033EF0EE710A9826818 /* Pods-SharedDeps-InheritSearchPathsBroken WatchKit 1 Extension.release.xcconfig */,
-				14A8648B8B9E1CA07B8028EA /* Pods-TestsShared-InheritSearchPathsBrokenTests.debug.xcconfig */,
-				D2658EA5F3C2CDB6439A140C /* Pods-TestsShared-InheritSearchPathsBrokenTests.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -720,7 +712,7 @@
 		};
 		A8B8DE4F1C7E2DB300DD9527 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 92C31D57FF28DDD674363514 /* Pods-SharedDeps-InheritSearchPathsBroken.debug.xcconfig */;
+			baseConfigurationReference = 3981AAF5D9D1DB2CED86D3D7 /* Pods-SharedDeps-InheritSearchPathsBroken.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = InheritSearchPathsBroken/Info.plist;
@@ -732,7 +724,7 @@
 		};
 		A8B8DE501C7E2DB300DD9527 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69FA1063A5CBBEDA5FC81FA5 /* Pods-SharedDeps-InheritSearchPathsBroken.release.xcconfig */;
+			baseConfigurationReference = AECD4CD21217F680103F378D /* Pods-SharedDeps-InheritSearchPathsBroken.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = InheritSearchPathsBroken/Info.plist;
@@ -744,7 +736,7 @@
 		};
 		A8B8DE521C7E2DB300DD9527 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14A8648B8B9E1CA07B8028EA /* Pods-TestsShared-InheritSearchPathsBrokenTests.debug.xcconfig */;
+			baseConfigurationReference = 26B4C8A74B84A3D42B847FAA /* Pods-TestsShared-InheritSearchPathsBrokenTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = InheritSearchPathsBrokenTests/Info.plist;
@@ -757,7 +749,7 @@
 		};
 		A8B8DE531C7E2DB300DD9527 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2658EA5F3C2CDB6439A140C /* Pods-TestsShared-InheritSearchPathsBrokenTests.release.xcconfig */;
+			baseConfigurationReference = EA781FD7ECB6193896F0E6A1 /* Pods-TestsShared-InheritSearchPathsBrokenTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = InheritSearchPathsBrokenTests/Info.plist;
@@ -770,7 +762,7 @@
 		};
 		A8B8DE751C7E2EFD00DD9527 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D6EBEF9E53B6B36FD754E17 /* Pods-SharedDeps-InheritSearchPathsBroken WatchKit 1 Extension.debug.xcconfig */;
+			baseConfigurationReference = FAD59A2DF64A0FDFAA2AF816 /* Pods-SharedDeps-InheritSearchPathsBroken WatchKit 1 Extension.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "InheritSearchPathsBroken WatchKit 1 Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -782,7 +774,7 @@
 		};
 		A8B8DE761C7E2EFD00DD9527 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE72D033EF0EE710A9826818 /* Pods-SharedDeps-InheritSearchPathsBroken WatchKit 1 Extension.release.xcconfig */;
+			baseConfigurationReference = 8613D9F39313F30EC16F2496 /* Pods-SharedDeps-InheritSearchPathsBroken WatchKit 1 Extension.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "InheritSearchPathsBroken WatchKit 1 Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
