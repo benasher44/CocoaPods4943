@@ -15,15 +15,18 @@ PODS:
   - AFNetworking/UIKit (3.0.4):
     - AFNetworking/NSURLSession
   - OCMock (3.2.2)
+  - OoyalaSDK (4.12.0)
 
 DEPENDENCIES:
   - AFNetworking
   - OCMock
+  - OoyalaSDK
 
 SPEC CHECKSUMS:
   AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
   OCMock: 18c9b7e67d4c2770e95bb77a9cc1ae0c91fe3835
+  OoyalaSDK: 8b6028b6aa18242ce03efd7932012c837a6ba697
 
-PODFILE CHECKSUM: 565e1d1da304580013328dcdcd8ea68fbefe21a5
+PODFILE CHECKSUM: 3063585fd81efcbc814c29b949e621865573f4f5
 
-COCOAPODS: 1.0.0.beta.4
+COCOAPODS: 1.0.0.beta.8
